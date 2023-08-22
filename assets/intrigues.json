@@ -1,0 +1,86 @@
+{
+    "template": {
+        "name": "",
+        "CHOOSE": 1,
+        "effects": [
+            {
+                "type": "plot/combat/endgame",
+                "requirements": {
+                    "alliance": {
+                        "Fremen": "true"
+                    }
+                },
+                "costs": {
+                    "resource": 0
+                },
+                "use": {
+                    "faction_influence": {
+                        "any": 0
+                    },
+                    "resource": 0
+                }
+            }
+        ]
+    },
+    "intrigues": [
+        {
+            "name": "Secret of the Sisterhood",
+            "effects": [
+                {
+                    "type": "plot",
+                    "use": {
+                        "faction_influence": {
+                            "Bene Gesserit": 1
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Tiebreaker",
+            "CHOOSE": "1",
+            "effects": [
+                {
+                    "type": "combat",
+                    "use": {
+                        "sword": 2
+                    }
+                },
+                {
+                    "type": "endgame",
+                    "use": {
+                        "spice": 10
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Corner The Market",
+            "CHOOSE": 2,
+            "effects": [
+                {
+                    "type": "endgame",
+                    "requirements": {
+                        "cards": {
+                            "Spice Must Flow": 2
+                        }
+                    },
+                    "use": {
+                        "victory_point": 1
+                    }
+                },
+                {
+                    "type": "endgame",
+                    "requirements": {
+                        "cards": {
+                            "Spice Must Flow": "MOST"
+                        }
+                    },
+                    "use": {
+                        "victory_point": 1
+                    }
+                }
+            ]
+        }
+    ]
+}

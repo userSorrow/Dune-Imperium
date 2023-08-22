@@ -1,0 +1,147 @@
+{
+    "template": {
+        "name": "",
+        "first_reward": {},
+        "second_reward": {},
+        "third_reward": {}
+    },
+    "conflictIs": [
+        {
+            "name": "Skirmish",
+            "first_reward": {
+                "victory_point": 1
+            },
+            "second_reward": {
+                "intrigue_card": 1,
+                "solari": 2
+            },
+            "third_reward": {
+                "solari": 2
+            }
+        },
+        {
+            "name": "Skirmish",
+            "first_reward": {
+                "victory_point": 1
+            },
+            "second_reward": {
+                "water": 1
+            },
+            "third_reward": {
+                "spice": 1
+            }
+        },
+        {
+            "name": "Skirmish",
+            "first_reward": {
+                "faction_influence": {
+                    "any": 1
+                },
+                "spice": 1
+            },
+            "second_reward": {
+                "spice": 2
+            },
+            "third_reward": {
+                "spice": 1
+            }
+        },
+        {
+            "name": "Skirmish",
+            "first_reward": {
+                "faction_influence": {
+                    "any": 1
+                },
+                "solari": 2
+            },
+            "second_reward": {
+                "solari": 3
+            },
+            "third_reward": {
+                "solari": 2
+            }
+        }
+    ],
+    "conflictIIs": [
+        {
+            "name": "Cloak and Dagger",
+            "first_reward": {
+                "faction_influence": {
+                    "any": 1
+                },
+                "intrigue_card": 2
+            },
+            "second_reward": {
+                "intrigue_card": 1,
+                "spice": 1
+            },
+            "third_reward": {
+                "CHOOSE": 1,
+                "intrigue_card": 1,
+                "spice": 1
+            }
+        }
+    ],
+    "conflictIIIs": [
+        {
+            "name": "Grand Vision",
+            "first_reward": {
+                "faction_influence": {
+                    "any": 2
+                },
+                "intrigue_card": 1
+            },
+            "second_reward": {
+                "intrigue_card": 1,
+                "spice": 3
+            },
+            "third_reward": {
+                "spice": 3
+            }
+        },
+        {
+            "name": "Battle for Carthag",
+            "first_reward": {
+                "victory_point": 2,
+                "banner": "Carthag"
+            },
+            "second_reward": {
+                "intrigue_card": 1,
+                "spice": 3
+            },
+            "third_reward": {
+                "spice": 3
+            }
+        },
+        {
+            "name": "Battle for Imperial Basin",
+            "first_reward": {
+                "victory_point": 2,
+                "banner": "Imperial Basin"
+            },
+            "second_reward": {
+                "spice": 5
+            },
+            "third_reward": {
+                "spice": 3
+            }
+        },
+        {
+            "name": "Battle for Arrakeen",
+            "first_reward": {
+                "victory_point": 2,
+                "banner": "Arrakeen"
+            },
+            "second_reward": {
+                "CHOOSE": 2,
+                "intrigue_card": 1,
+                "spice": 2,
+                "solari": 3
+            },
+            "third_reward": {
+                "intrigue": 1,
+                "solari": 2
+            }
+        }
+    ]
+}

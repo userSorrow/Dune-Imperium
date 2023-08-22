@@ -1,0 +1,57 @@
+{
+    "template": {
+        "name": "Stillsuits",
+        "icon": "Fremen",
+        "is_combat": true,
+        "cost": {},
+        "resources": {
+            "spice": 99
+        }
+    },
+    "normal_spaces": [
+        {
+            "name": "Hall of Oratory",
+            "icon": "Landsraad",
+            "cost": {},
+            "resources": {
+                "troops": 1,
+                "persuasion": 1
+            }
+        },
+        {
+            "name": "Arrakeen",
+            "icon": "City",
+            "cost": {},
+            "is_combat": true,
+            "has_banner": true,
+            "resources": {
+                "troops": 1,
+                "cards": 1
+            }
+        }
+    ],
+    "harvest_spaces": [
+        {
+            "name": "The Great Flat",
+            "icon": "Spice Trade",
+            "cost": {
+                "water": 2
+            },
+            "has_banner": true,
+            "resources": {
+                "spice": 3
+            }
+        }
+    ],
+    "faction_spaces": [
+        {
+            "name": "Stillsuits",
+            "icon": "Fremen",
+            "is_combat": true,
+            "cost": {},
+            "resources": {
+                "water": 1
+            }
+        }
+    ]
+}

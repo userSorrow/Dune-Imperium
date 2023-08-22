@@ -1,0 +1,151 @@
+{
+    "template": {
+        "name": "",
+        "icons": [],
+        "on_use": {},
+        "on_reveal": {},
+        "copies": "optional"
+    },
+    "starting": [
+        {
+            "name": "Convincing Argument",
+            "icons": [],
+            "on_use": {},
+            "on_reveal": {
+                "persuasion": 2
+            },
+            "copies": 2
+        },
+        {
+            "name": "Dagger",
+            "icons": [
+                "Landsraad"
+            ],
+            "on_use": {},
+            "on_reveal": {
+                "sword": 1
+            },
+            "copies": 2
+        },
+        {
+            "name": "Diplomacy",
+            "icons": [
+                "Emperor",
+                "Spacing Guild",
+                "Bene Gesserit",
+                "Fremen"
+            ],
+            "on_use": {},
+            "on_reveal": {
+                "persuasion": 1
+            }
+        },
+        {
+            "name": "Dune, the Desert Planet",
+            "icons": [
+                "Spice Trade"
+            ],
+            "on_use": {},
+            "on_reveal": {
+                "persuasion": 1
+            },
+            "copies": 2
+        },
+        {
+            "name": "Reconnaissance",
+            "icons": [
+                "City"
+            ],
+            "on_use": {},
+            "on_reveal": {
+                "persuasion": 1
+            }
+        },
+        {
+            "name": "Seek Allies",
+            "icons": [
+                "Emperor",
+                "Spacing Guild",
+                "Bene Gesserit",
+                "Fremen"
+            ],
+            "on_use": {
+                "trash": true
+            },
+            "on_reveal": {}
+        },
+        {
+            "name": "Signet Ring",
+            "icons": [
+                "Landsraad",
+                "City",
+                "Spice Trade"
+            ],
+            "on_use": {
+                "signet_ability": true
+            },
+            "on_reveal": {
+                "persuasion": 1
+            }
+        }
+    ],
+    "reserve": [
+        {
+            "name": "Arrakis Liaison",
+            "factions": [
+                "Fremen"
+            ],
+            "price": {
+                "persuasion": 2
+            },
+            "icons": [
+                "Landsraad",
+                "City"
+            ],
+            "on_use": {},
+            "on_reveal": {
+                "persuasion": 2
+            },
+            "copies": 8
+        },
+        {
+            "name": "Spice Must Flow",
+            "factions": [],
+            "price": {
+                "persuasion": 9
+            },
+            "icons": [],
+            "on_use": {},
+            "on_reveal": {
+                "persuasion": 2
+            },
+            "copies": 10,
+            "on_acquire": {
+                "victory_point": 1
+            }
+        },
+        {
+            "name": "Foldspace",
+            "factions": [],
+            "price": {
+                "foldspace": true
+            },
+            "icons": [
+                "Emperor",
+                "Spacing Guild",
+                "Bene Gesserit",
+                "Fremen",
+                "Landsraad",
+                "City",
+                "Spice Trade"
+            ],
+            "on_use": {
+                "draw": 1,
+                "trash": true
+            },
+            "on_reveal": {},
+            "copies": 6
+        }
+    ],
+    "imperium": []
+}

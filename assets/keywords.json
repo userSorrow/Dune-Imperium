@@ -1,0 +1,13 @@
+{
+    "resources": [
+        "spice",
+        "solari",
+        "water"
+    ],
+    "factions": [
+        "Fremen",
+        "Bene Gesserit",
+        "Spacing Guild",
+        "Emperor"
+    ]
+}

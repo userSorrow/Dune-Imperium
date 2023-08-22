@@ -1,0 +1,63 @@
+{
+    "template": {
+        "name": "LEADER NAME",
+        "house": "HOUSE NAME",
+        "normal_ability": {
+            "name": "PASSIVE NAME",
+            "game_start": {
+                "spice": 0,
+                "place_snooper_tokens": "FOR TESSIA VERNIUS"
+            },
+            "trigger": {},
+            "turn_start": {},
+            "passive": {
+                "dreadnought_strength": ""
+            }
+        },
+        "signet_ability": {
+            "name": "SIGNET NAME"
+        }
+    },
+    "leaders": [
+        {
+            "name": "Glossu \"The Beast\" Rabban",
+            "house": "Harkonnen",
+            "normal_ability": {
+                "name": "Arrakis Fiefdom",
+                "description": "You start the game with additional resources: 1 SPICE and 1 SOLARIS",
+                "game_start": {
+                    "spice": 1,
+                    "solari": 1
+                }
+            },
+            "signet_ability": {
+                "name": "Brutality",
+                "description": "1 TROOP or 2 TROOPS if you have at least one Faction Alliance",
+                "CHOOSE": 1,
+                "effects": [
+                    {
+                        "type": "endgame",
+                        "requirements": {
+                            "cards": {
+                                "Spice Must Flow": 2
+                            }
+                        },
+                        "use": {
+                            "victory_point": 1
+                        }
+                    },
+                    {
+                        "requirements": {
+                            "faction_alliance": {
+                                "any": 1
+                            }
+                        },
+                        "use": {
+                            "troops": 2
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
